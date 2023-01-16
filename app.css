@@ -120,8 +120,21 @@ button:active {
 }
 
 #user-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 1rem;
   padding: 1rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
+}
+
+.form-control {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
